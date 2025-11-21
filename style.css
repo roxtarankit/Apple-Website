@@ -112,3 +112,31 @@ h4
     background-color:black;
     border-style:solid;
 }
+
+
+/* -------iphone 17 Air ----- */
+
+#iphone17
+{
+    height: 87.5%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/ci/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_mediumtall_2x.jpg);
+    background-position: center;
+    background-size: 115%;
+    background-position-y: 100.5cm;
+}
+
+#iphone17 h1,h3{
+    color: black;
+}
+
+#button3 button
+{
+    padding:13px 20px;
+    border-radius: 50px;
+    color: #0071E3;
+    border-width: 2px;
+    border-color: #0071E3;
+    background-color:rgb(255, 255, 255);
+    border-style:solid;
+}
