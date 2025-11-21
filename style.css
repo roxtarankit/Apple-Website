@@ -1,27 +1,34 @@
+@font-face {
+    font-family: apple;
+    src: url(./sf-pro-text_regular.woff2);
+}
+
 *{
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: apple;
 }
 
 html,body{
     height: 100%;
     width: 100%;
-    margin: 0;
 }
 
 #main
 {
     height: 100%;
     width: 100%;
-    background-color: rgb(173, 9, 9);
 }
 
-#nav
+#nav,#nav2
 {
-    display: flex;
-    align-items: flex-start;
-    height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+    padding: 10 40;
+    height: 44.4px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.902);
 }
@@ -29,9 +36,79 @@ html,body{
 h4
 {
     color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
+#nav a{
+    color: white;
+    font-size: 13px;
+    font-weight: 10;
+    text-decoration: none;
+}
+#nav2 a{
+    color: #0071E3;
+    font-size: 13px;
+    font-weight: 10;
+    text-decoration: none;
+}
+
+#nav i{
+    color: white;
+}
+#nav2 p{
+    color: white;
+    font-size: 13.5px;
 }
 
 #text
 {
+    padding: 50px;
+    color: white;
     text-align: center;
+    font-size: 26px;
+}
+
+#text h3
+{
+    font-weight: 200;
+    font-size: 25px;
+}
+
+#iphone17pro{
+    height: 87.5%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/ci/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_mediumtall_2x.jpg);
+    background-position: center;
+    background-size: 115%;
+    background-position-y: 100.5cm;
+    
+}
+
+#button
+{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#button1 button
+{
+    padding:13px 20px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    background-color: #0071E3;
+}
+
+#button2 button
+{
+    padding:13px 20px;
+    border-radius: 50px;
+    color: #0071E3;
+    border-width: 2px;
+    border-color: #0071E3;
+    background-color:black;
+    border-style:solid;
 }
