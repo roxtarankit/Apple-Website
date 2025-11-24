@@ -3,27 +3,27 @@
     src: url(./sf-pro-text_regular.woff2);
 }
 
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: apple;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: apple;
 }
 
-html,body{
+html,
+body {
     height: 100%;
     width: 100%;
 }
 
-#main
-{
+#main {
     height: 100%;
     width: 100%;
 }
 
-#nav,#nav2
-{
-    display:flex;
+#nav,
+#nav2 {
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 38px;
@@ -33,59 +33,58 @@ html,body{
     background-color: rgba(0, 0, 0, 0.902);
 }
 
-h4
-{
+h4 {
     color: white;
     font-size: 13px;
     font-weight: 500;
 }
-#nav a{
+
+#nav a {
     color: white;
     font-size: 13px;
     font-weight: 10;
     text-decoration: none;
 }
-#nav2 a{
+
+#nav2 a {
     color: #0071E3;
     font-size: 13px;
     font-weight: 10;
     text-decoration: none;
 }
 
-#nav i{
+#nav i {
     color: white;
 }
-#nav2 p{
+
+#nav2 p {
     color: white;
     font-size: 13.5px;
 }
 
-#text
-{
+#text {
     padding: 50px;
     color: white;
     text-align: center;
     font-size: 26px;
 }
 
-#text h3
-{
+#text h3 {
     font-weight: 200;
     font-size: 25px;
 }
 
-#iphone17pro{
+#iphone17pro {
     height: 87.5%;
     width: 100%;
     background-image: url(https://www.apple.com/v/home/ci/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_mediumtall_2x.jpg);
     background-position: center;
-    background-size: 115%;
-    background-position-y: 100.5cm;
-    
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
-#button
-{
+#button {
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -93,50 +92,100 @@ h4
     gap: 20px;
 }
 
-#button1 button
-{
-    padding:13px 20px;
+#button1 button {
+    padding: 13px 20px;
     border-radius: 50px;
     color: white;
     border: none;
     background-color: #0071E3;
 }
 
-#button2 button
-{
-    padding:13px 20px;
+#button2 button {
+    padding: 13px 20px;
     border-radius: 50px;
     color: #0071E3;
     border-width: 2px;
     border-color: #0071E3;
-    background-color:black;
-    border-style:solid;
+    background-color: black;
+    border-style: solid;
 }
 
 
 /* -------iphone 17 Air ----- */
 
-#iphone17
-{
-    height: 87.5%;
+#iphone17 {
+    height: 100%;
     width: 100%;
     background-image: url(https://www.apple.com/v/home/ci/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_mediumtall_2x.jpg);
     background-position: center;
-    background-size: 115%;
-    background-position-y: 100.5cm;
+    background-size: cover;
 }
 
-#iphone17 h1,h3{
+#iphone17 h1,
+h3 {
     color: black;
 }
 
-#button3 button
-{
-    padding:13px 20px;
+#iphone17 button:hover {
+    background-color: #0071E3;
+    cursor: pointer;
+    color: white;
+}
+
+#button3 button {
+    padding: 13px 20px;
     border-radius: 50px;
     color: #0071E3;
     border-width: 2px;
     border-color: #0071E3;
-    background-color:rgb(255, 255, 255);
-    border-style:solid;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+}
+
+/* -------------ipad air---------- */
+
+#ipad {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/ci/images/heroes/ipad-air/hero_ipad_air_avail__c34ycq52exg2_mediumtall_2x.jpg);
+    background-size: cover;
+}
+
+#ipad h1 {
+    color: black;
+}
+
+#button4 button {
+    padding: 13px 20px;
+    border-radius: 50px;
+    color: #0071E3;
+    /* text color */
+    border: 2px solid #0071E3;
+    background-color: transparent;
+    /* makes button see-through */
+}
+
+#ipad button:hover {
+    background-color: #0071E3;
+    cursor: pointer;
+    color: white;
+}
+
+#imag {
+    height: 100%;
+    width: 100%;
+
+}
+
+/* ------------------------4 div---------------------------------- */
+
+/*-------------------footer--------------*/
+
+#footerdiv
+{
+    height: 100%;
+    width: 100%;
+    padding: 20px 200px;
+    font-weight: 100;
+    font-size: 14px;
 }
