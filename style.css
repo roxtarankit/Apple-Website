@@ -159,10 +159,9 @@ h3 {
     padding: 13px 20px;
     border-radius: 50px;
     color: #0071E3;
-    /* text color */
     border: 2px solid #0071E3;
     background-color: transparent;
-    /* makes button see-through */
+
 }
 
 #ipad button:hover {
@@ -176,10 +175,6 @@ h3 {
     width: 100%;
 
 }
-
-/* ------------------------4 div---------------------------------- */
-
-/*-------------------footer--------------*/
 
 #footerdiv
 {
