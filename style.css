@@ -110,6 +110,12 @@ h4 {
     border-style: solid;
 }
 
+#iphone17pro button:hover {
+background-color: #0071E3;
+color: white;
+cursor: pointer;
+}
+
 
 /* -------iphone 17 Air ----- */
 
@@ -151,10 +157,6 @@ h3 {
     background-size: cover;
 }
 
-#ipad h1 {
-    color: black;
-}
-
 #button4 button {
     padding: 13px 20px;
     border-radius: 50px;
@@ -183,4 +185,12 @@ h3 {
     padding: 20px 200px;
     font-weight: 100;
     font-size: 14px;
+}
+
+#foothead
+{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
